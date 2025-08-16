@@ -12,8 +12,8 @@ considered for packing in the order I1, I2,… In. To pack an item Ii, find the 
 has enough remaining capacity, i.e., it contains at most 1 - Si, then add the item Ii to the items packed in 
 the bin j. 
 
-**2. Best Fit (BF):** it is the same as FF except that when item Ii is packed, we pack it into the fullest bin that 
-still has enough space to accommodate the item Ii. 
+**2. Best Fit (BF):** it is the same as FF except that when item Ii is packed, we pack it into the fullest bin 
+that still has enough space to accommodate the item Ii. 
 
 
 
