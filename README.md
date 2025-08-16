@@ -14,5 +14,16 @@ enough remaining capacity, i.e., it contains at most 1 - Si, then add the item I
 **2. Best Fit (BF):** it is the same as FF except that when item Ii is packed, we pack it into the fullest bin that
 still has enough space to accommodate the item Ii. 
 
+**MIPS assembly program should meet the following requirements:** 
+1. The program reads a list of item sizes from an input text file. 
+2. The program prompts the user to enter the input file name or path.  
+3. The program validates the input file content and prints appropriate error messages, if the file does not 
+exist or the input file content is invalid 
+4. The menu should remain in an infinite loop until the user decides to exit by entering ‘q’ or ‘Q’ 
+5. The program prompts the user to choose the heuristic: FF or BF. This input is case insensitive. 
+6. The program solves the bin packing problem using the selected heuristic and prints the results to an 
+output text file. The output includes the minimum number of required bins, and which items are packed 
+in each bin.  
+
 
 
