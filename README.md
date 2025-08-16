@@ -8,12 +8,11 @@ into the minimum number of bins of unit capacity, which means the capacity of ea
 we will solve the bin packing problem using the following two heuristics:                                                                                                                                              
 
 **1. First Fit (FF):** the bins are indexed sequentially as 1, 2, …All bins are initially empty. The items are 
-considered for packing in the order I1, I2,… In. To pack an item Ii, find the least index j such that bin j 
-has enough remaining capacity, i.e., it contains at most 1 - Si, then add the item Ii to the items packed in 
-the bin j. 
+considered for packing in the order I1, I2,… In. To pack an item Ii, find the least index j such that bin j has
+enough remaining capacity, i.e., it contains at most 1 - Si, then add the item Ii to the items packed in the bin j. 
 
-**2. Best Fit (BF):** it is the same as FF except that when item Ii is packed, we pack it into the fullest bin 
-that still has enough space to accommodate the item Ii. 
+**2. Best Fit (BF):** it is the same as FF except that when item Ii is packed, we pack it into the fullest bin that
+still has enough space to accommodate the item Ii. 
 
 
 
